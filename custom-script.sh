@@ -7,7 +7,7 @@ set -eux
 #
 # For example:
 # yum install -y curl wget git tmux firefox xvfb
-yum install -y epel-release
-yum install -y ansible ansible-doc python-pip python-nose tree
-pip install --upgrade pip
-pip install virtualenv
+yum update -y
+yum install -y python3
+pip3 install --upgrade pip
+pip3 install virtualenv ansible
